@@ -1,0 +1,8 @@
+@import 'templates/_normalize.scss'; //Очистка стилей
+
+.header {
+    &__container {
+        border-bottom: 1px solid black;
+        padding: 8px;
+    }
+}
