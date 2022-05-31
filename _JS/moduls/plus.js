@@ -19,3 +19,16 @@ const printC = console.log;
 const isNumber = data => {
     return (typeof(data) === 'number' && !isNaN(data));
 };
+
+// info()
+const info = data => {
+    switch(true) {
+        case isNumber(data):
+            printC({
+                data: data, 
+                type: "Number",
+                // Доработать
+            });
+            break;
+    }
+};
